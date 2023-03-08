@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(192, 192, 192);
+    margin: 0;
+}
+
+p {
+    font-weight: bolder;
+}
+
+input {
+    outline: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    height: 50px;
+    background-color: #fff;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.button-cont {
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-cont:hover {
+    background-color: rgb(167, 167, 167);
+}
+
+.button-cont-invevia {
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(167, 167, 167);
+}
+
+.button-img {
+    margin: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.range-cont {
+    display: flex;
+    margin-left: 10px;
+    padding: 0 5px 0 5px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+}
+
+.container-canvas {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-cont {
+    border: 0px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: rgb(230, 230, 230);
+}
+
+#canvas {
+    margin: 20px;
+    background-color: #fff;
+}
